@@ -1,0 +1,6 @@
+﻿services:
+  notes.web:
+    image: notes.web
+    build:
+      context: .
+      dockerfile: Notes.Web/Dockerfile
